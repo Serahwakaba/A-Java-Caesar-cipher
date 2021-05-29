@@ -10,6 +10,7 @@ public class Caesar {
             shift= (shift%26)+26;
         }
         String cipherText = "";
+        int length = plainText.length();
         return cipherText;
     }
 
