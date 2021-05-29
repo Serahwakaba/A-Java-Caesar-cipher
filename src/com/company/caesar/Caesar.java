@@ -11,6 +11,10 @@ public class Caesar {
         }
         String cipherText = "";
         int length = plainText.length();
+        for (i = 0; i<length; i++){
+            char ch = plainText.charAt(i);
+        }
+
         return cipherText;
     }
 
