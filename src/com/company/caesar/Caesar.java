@@ -13,6 +13,11 @@ public class Caesar {
         int length = plainText.length();
         for (i = 0; i<length; i++){
             char ch = plainText.charAt(i);
+            if (Character.isLetter(ch)){
+
+            }else {
+                cipherText += ch;
+            }
         }
 
         return cipherText;
